@@ -1,0 +1,67 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    background: #BB7B36;
+}
+
+.header-logo {
+    background: #BB7B36;
+}
+
+.header-logo img{
+    width: 40px;
+}
+
+.header-logo a {
+    color: rgb(58, 58, 58);
+}
+.header-logo a:hover {
+    color: black;
+}
+
+.carrusel-inicio img {
+    max-height: 75vh;
+    object-fit: cover;
+    filter: grayscale(70%);
+}
+
+.carrusel-inicio .carousel {
+    position: relative;
+}
+
+.carrusel-inicio .carousel .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+}
+
+.carrusel-inicio .overlay .container,
+.carrusel-inicio .overlay .row {
+    height: 100%;
+}
+
+.btn-blog {
+    background-color: #BB7B36;
+}
+
+.btn-blog:hover {
+    background-color: rgb(202, 104, 0);
+    color: black;
+}
+
+#nosotros img {
+    width: 80px;
+}
+
+
+
+footer a {
+    color: rgb(0, 0, 0);
+}
